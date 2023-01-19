@@ -8,9 +8,9 @@ function toggleMode () {
     // substituir a imagem
     if (html.classList.contains("light")) {
         // se tiver light mode, mudar para o ducksun
-        img.setAttribute("src", "/assets/sunduck.png")
+        img.setAttribute("src", "./assets/sunduck.png")
     } else {
         // se tiver dark mode, mudar para o duckmoon
-        img.setAttribute("src", "/assets/moonduck.png")
+        img.setAttribute("src", "./assets/moonduck.png")
     }
 }
